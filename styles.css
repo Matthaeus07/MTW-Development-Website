@@ -2,7 +2,7 @@ h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 45px;
     
-    padding: 80px 0px 20px 70px;
+    padding: 80px 70px 20px 70px;
     max-width: 1880px;
     display:block;
     margin:auto;
@@ -11,13 +11,13 @@ h2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
     
-    padding: 60px 0px 20px 70px;
+    padding: 60px 70px 20px 70px;
 }
 h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
 
-    padding: 24px 0px 0px 24px;
+    padding: 24px 70px 0px 24px;
     max-width: 1880px;
     display:block;
     margin:auto;
@@ -36,19 +36,20 @@ header img {
     border-radius: 24px;
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    margin-top: 40px
 }
 header p {
     font-family: 'Open Sans', sans-serif;
     font-size: 22px;
     
-    padding: 0px 0px 0px 70px;
+    padding: 0px 70px 0px 70px;
     max-width: 1880px;
     display:block;
     margin:auto;
 }
 
-.cards {
+main {
     max-width: 1940px;
     display:block;
     margin:auto;
@@ -77,24 +78,41 @@ header p {
 
 .dalle-card {
     display: inline-block;
-    border-radius: 24px;
+    border-radius: 26px;
     transition: 300ms;
     width: 500px;
     margin: 0px 0px 50px 70px;
 }
 .dalle-card:hover {
-    background: #c2e7ff;
+    background: #c2e7ff70;
 }
 
 .calculator-card {
     display: inline-block;
-    border-radius: 24px;
+    border-radius: 26px;
     transition: 300ms;
     width: 500px;
     margin: 0px 0px 50px 70px;
 }
 .calculator-card:hover {
-    background: #c2e7ff;
+    background: rgba(220, 255, 194, 0.439);
+}
+
+.SteadyAI h2 {
+    padding: 0px 70px 0px 70px;
+}
+
+.SteadyAI p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding: 0px 70px 0px 70px;
+}
+
+.SteadyAI img {
+    width: 530px;
+    display: block; 
+    margin: 0 auto;
+    padding: 0px 70px 20px 70px;
 }
 
 .svg {
@@ -173,5 +191,9 @@ footer p {
         width: 100%;
         padding: 0;
         margin: 0;
+    }
+
+    .SteadyAI img {
+        width: 50%;
     }
 }
